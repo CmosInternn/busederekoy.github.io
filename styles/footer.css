@@ -1,0 +1,151 @@
+.contact-hero {
+  position: relative;
+  height: 320px;
+  background: transparent;
+  overflow: hidden;
+}
+
+
+.contact-left {
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 420px;
+  z-index: 2;
+}
+
+.contact-left h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 18px;
+  letter-spacing: -0.02em;
+}
+
+.contact-left p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+.contact-right {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 360px;
+  height: 220px;
+  pointer-events: none;
+}
+
+
+.glass-card {
+  position: absolute;
+  width: 220px;
+  height: 140px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  opacity: 0.9;
+}
+
+.card-1 {
+  top: 0;
+  right: 0;
+  transform: rotate(-6deg);
+}
+
+.card-2 {
+  bottom: 0;
+  left: 0;
+  transform: rotate(8deg);
+}
+
+
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(
+    circle,
+    rgba(46, 140, 255, 0.35),
+    transparent 70%
+  );
+  filter: blur(40px);
+  z-index: 0;
+}
+
+
+
+.contact-signature {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  opacity: 0.9;
+  z-index: 2;
+  text-align: center;
+}
+
+
+.contact-signature hr {
+  width: 40px;
+  margin: 0 auto 6px;
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+
+.signature-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+
+.sig-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background: #1e6cff;
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(30,108,255,0.45);
+  transition: all 0.2s ease;
+}
+
+.sig-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(30,108,255,0.65);
+}
+
+
+@media (max-width: 992px) {
+  .contact-right {
+    display: none;
+  }
+
+  .contact-left {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

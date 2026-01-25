@@ -1,0 +1,40 @@
+.vision-section {
+  position: relative;
+  padding: 120px 0 140px;
+  background: transparent;
+
+  overflow: hidden;
+}
+
+.vision-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.vision-title {
+  font-size: 56px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 28px;
+  letter-spacing: -0.02em;
+}
+
+.vision-text {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 80px;
+}
+
+.vision-line {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #2f80ff,
+    transparent
+  );
+}
