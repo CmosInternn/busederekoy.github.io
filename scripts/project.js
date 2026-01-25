@@ -13,7 +13,6 @@ let currentIndex = 0;
 document.querySelectorAll('.work-card').forEach(card => {
   const title = card.dataset.title;
   const dataImages = card.dataset.images.split(',').map(i => i.trim());
-    console.log(dataImages);
   const mainImg = card.querySelector('.work-image > img');
   mainImg.addEventListener('click', () => {
     openModal(title, dataImages, 0);
