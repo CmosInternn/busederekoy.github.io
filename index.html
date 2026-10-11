@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="styles/thanks.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/background.css">
+
 </head>
 
 <body>
@@ -43,12 +44,14 @@
         </div>
 
         <a
-          href="mailto:busederekoy52@gmail.com"
-          class="contact-btn"
-        >
-          Contact me
-          <span aria-hidden="true">↗</span>
-        </a>
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=busederekoy52@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="contact-btn"
+      >
+        Contact me
+        <span aria-hidden="true">↗</span>
+      </a>
       </div>
 
       <div class="hero-content">
@@ -102,21 +105,21 @@
       </span>
 
       <h2 id="portfolioSliderTitle">
-        Proje<br>Arşivi
+        Project<br>Archive
       </h2>
     </div>
 
     <div class="portfolio-marquee-side">
       <p>
-        Tasarım, geliştirme ve marka kimliği alanlarında hazırlanan
-        seçilmiş proje kareleri.
+        A selection of projects I've created across brand design,
+        web development, and digital experiences.
       </p>
 
       <div class="portfolio-slider-controls">
         <button
           class="portfolio-control portfolio-prev"
           type="button"
-          aria-label="Önceki projeyi göster"
+          aria-label="Previous project"
         >
           ←
         </button>
@@ -124,7 +127,7 @@
         <button
           class="portfolio-control portfolio-toggle"
           type="button"
-          aria-label="Otomatik kaydırmayı durdur"
+          aria-label="Pause automatic scrolling"
           aria-pressed="false"
         >
           <span class="portfolio-toggle-icon">Ⅱ</span>
@@ -133,7 +136,7 @@
         <button
           class="portfolio-control portfolio-next"
           type="button"
-          aria-label="Sonraki projeyi göster"
+          aria-label="Next project"
         >
           →
         </button>
@@ -145,9 +148,12 @@
   <div
     class="portfolio-slider"
     id="portfolioSlider"
-    aria-label="Proje görselleri"
+    aria-label="Project images"
   >
-    <div class="portfolio-slider-line" aria-hidden="true"></div>
+    <div
+      class="portfolio-slider-line"
+      aria-hidden="true"
+    ></div>
 
     <div class="portfolio-track" id="portfolioTrack">
 
@@ -159,21 +165,30 @@
         <div class="portfolio-slide-media">
           <img
             src="assets/gall/galli.png"
-            alt="Galli Poli Olive proje çalışması"
+            alt="Galli Poli Olive project work"
             draggable="false"
           >
 
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">01</span>
-          <span class="portfolio-slide-category">Brand Design</span>
+          <span class="portfolio-slide-category">
+            Brand Design
+          </span>
 
           <div class="portfolio-slide-info">
             <h3>Galli Poli Olive</h3>
-            <span class="portfolio-slide-link">
-              Projeyi incele
+
+            <a
+              href="https://www.gallipoliolive.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="portfolio-slide-link"
+              draggable="false"
+            >
+              View Project
               <span aria-hidden="true">↗</span>
-            </span>
+            </a>
           </div>
         </div>
       </article>
@@ -186,7 +201,7 @@
         <div class="portfolio-slide-media">
           <img
             src="assets/gall/galli1.png"
-            alt="Galli Poli Olive ikinci proje çalışması"
+            alt="Galli Poli Olive second project work"
             loading="lazy"
             draggable="false"
           >
@@ -194,14 +209,23 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">02</span>
-          <span class="portfolio-slide-category">Packaging</span>
+          <span class="portfolio-slide-category">
+            Packaging
+          </span>
 
           <div class="portfolio-slide-info">
             <h3>Galli Poli Identity</h3>
-            <span class="portfolio-slide-link">
-              Detayları gör
+
+            <a
+              href="https://www.gallipoliolive.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="portfolio-slide-link"
+              draggable="false"
+            >
+              View Project
               <span aria-hidden="true">↗</span>
-            </span>
+            </a>
           </div>
         </div>
       </article>
@@ -213,8 +237,8 @@
       >
         <div class="portfolio-slide-media">
           <img
-            src="assets/sbt/sabt.png"
-            alt="Sabit Değişkenler proje çalışması"
+            src="assets/vectra/vectra.png"
+            alt="Vectra Studio project work"
             loading="lazy"
             draggable="false"
           >
@@ -222,14 +246,12 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">03</span>
-          <span class="portfolio-slide-category">Editorial</span>
+          <span class="portfolio-slide-category">
+            Editorial
+          </span>
 
           <div class="portfolio-slide-info">
-            <h3>Sabit Değişkenler</h3>
-            <span class="portfolio-slide-link">
-              Projeyi incele
-              <span aria-hidden="true">↗</span>
-            </span>
+            <h3>Vectra Studio</h3>
           </div>
         </div>
       </article>
@@ -242,7 +264,7 @@
         <div class="portfolio-slide-media">
           <img
             src="assets/sbt/sbt2.png"
-            alt="Sabit Değişkenler ikinci proje çalışması"
+            alt="Sabit Değişkenler second project work"
             loading="lazy"
             draggable="false"
           >
@@ -250,14 +272,23 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">04</span>
-          <span class="portfolio-slide-category">Development</span>
+          <span class="portfolio-slide-category">
+            Development
+          </span>
 
           <div class="portfolio-slide-info">
             <h3>Digital Experience</h3>
-            <span class="portfolio-slide-link">
-              Detayları gör
+
+            <a
+              href="https://www.sabitdegiskenler.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="portfolio-slide-link"
+              draggable="false"
+            >
+              View Project
               <span aria-hidden="true">↗</span>
-            </span>
+            </a>
           </div>
         </div>
       </article>
@@ -270,7 +301,7 @@
         <div class="portfolio-slide-media">
           <img
             src="assets/sbt/sbt3.png"
-            alt="Sabit Değişkenler üçüncü proje çalışması"
+            alt="Sabit Değişkenler third project work"
             loading="lazy"
             draggable="false"
           >
@@ -278,14 +309,23 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">05</span>
-          <span class="portfolio-slide-category">Web Design</span>
+          <span class="portfolio-slide-category">
+            Web Design
+          </span>
 
           <div class="portfolio-slide-info">
             <h3>Visual System</h3>
-            <span class="portfolio-slide-link">
-              Detayları gör
+
+            <a
+              href="https://www.sabitdegiskenler.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="portfolio-slide-link"
+              draggable="false"
+            >
+              View Project
               <span aria-hidden="true">↗</span>
-            </span>
+            </a>
           </div>
         </div>
       </article>
@@ -298,7 +338,7 @@
         <div class="portfolio-slide-media">
           <img
             src="assets/cof/cof1.png"
-            alt="Ararat Reserve Coffee proje çalışması"
+            alt="Ararat Reserve Coffee project work"
             loading="lazy"
             draggable="false"
           >
@@ -306,14 +346,12 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">06</span>
-          <span class="portfolio-slide-category">Brand Design</span>
+          <span class="portfolio-slide-category">
+            Brand Design
+          </span>
 
           <div class="portfolio-slide-info">
             <h3>Ararat Reserve Coffee</h3>
-            <span class="portfolio-slide-link">
-              Projeyi incele
-              <span aria-hidden="true">↗</span>
-            </span>
           </div>
         </div>
       </article>
@@ -325,8 +363,8 @@
       >
         <div class="portfolio-slide-media">
           <img
-            src="assets/cof/cof3.png"
-            alt="Ararat Reserve Coffee ambalaj çalışması"
+            src="assets/infinis.png"
+            alt="Ararat Reserve Coffee packaging work"
             loading="lazy"
             draggable="false"
           >
@@ -334,42 +372,23 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">07</span>
-          <span class="portfolio-slide-category">Packaging</span>
+          <span class="portfolio-slide-category">
+            Desing
+          </span>
 
           <div class="portfolio-slide-info">
-            <h3>Coffee Packaging</h3>
-            <span class="portfolio-slide-link">
-              Detayları gör
+            <h3>Infınıs</h3>
+
+            <a
+              href="https://infinisnutrition.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="portfolio-slide-link"
+              draggable="false"
+            >
+              View Project
               <span aria-hidden="true">↗</span>
-            </span>
-          </div>
-        </div>
-      </article>
-
-      <!-- 08 -->
-      <article
-        class="portfolio-slide"
-        style="--slide-accent: #8aa84b"
-      >
-        <div class="portfolio-slide-media">
-          <img
-            src="assets/ca/ca.png"
-            alt="Cem Akın portfolyo proje çalışması"
-            loading="lazy"
-            draggable="false"
-          >
-
-          <div class="portfolio-slide-overlay"></div>
-
-          <span class="portfolio-slide-number">08</span>
-          <span class="portfolio-slide-category">Portfolio</span>
-
-          <div class="portfolio-slide-info">
-            <h3>Cem Akın</h3>
-            <span class="portfolio-slide-link">
-              Projeyi incele
-              <span aria-hidden="true">↗</span>
-            </span>
+            </a>
           </div>
         </div>
       </article>
@@ -382,7 +401,7 @@
         <div class="portfolio-slide-media">
           <img
             src="assets/sb/sb4.png"
-            alt="Sabit Değişkenler Famous proje çalışması"
+            alt="Sabit Değişkenler Famous project work"
             loading="lazy"
             draggable="false"
           >
@@ -390,14 +409,12 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">09</span>
-          <span class="portfolio-slide-category">Campaign</span>
+          <span class="portfolio-slide-category">
+            Campaign
+          </span>
 
           <div class="portfolio-slide-info">
             <h3>Sabit Değişkenler Famous</h3>
-            <span class="portfolio-slide-link">
-              Projeyi incele
-              <span aria-hidden="true">↗</span>
-            </span>
           </div>
         </div>
       </article>
@@ -410,7 +427,7 @@
         <div class="portfolio-slide-media">
           <img
             src="assets/sb/sb3.png"
-            alt="Sabit Değişkenler kampanya çalışması"
+            alt="Sabit Değişkenler campaign project work"
             loading="lazy"
             draggable="false"
           >
@@ -418,14 +435,12 @@
           <div class="portfolio-slide-overlay"></div>
 
           <span class="portfolio-slide-number">10</span>
-          <span class="portfolio-slide-category">Creative Direction</span>
+          <span class="portfolio-slide-category">
+            Creative Direction
+          </span>
 
           <div class="portfolio-slide-info">
             <h3>Campaign Direction</h3>
-            <span class="portfolio-slide-link">
-              Detayları gör
-              <span aria-hidden="true">↗</span>
-            </span>
           </div>
         </div>
       </article>
@@ -443,6 +458,7 @@
     <span>Selected works</span>
   </div>
 </section>
+
 
   <!-- ================= VISION ================= -->
 
@@ -532,12 +548,12 @@
     <header class="projects-header">
       <div>
         <span class="projects-kicker">Portfolio / 2026</span>
-        <h2 class="projects-title">Seçilmiş<br>Projeler</h2>
+        <h2 class="projects-title">Selected<br>Projects</h2>
       </div>
 
       <p class="projects-intro">
-        Marka tasarımı, web geliştirme ve dijital deneyim alanlarında
-        hazırladığım seçilmiş projeler.
+        A selection of projects I've created across brand design, 
+        web development, and digital experiences.
       </p>
     </header>
 
@@ -548,7 +564,7 @@
         class="project-showcase"
         style="--project-accent: #d47736"
         data-title="GALLİ POLİ OLİVE"
-        data-video="assets/gall/galli.mp4"
+        data-video="assets/gall/Gallipoliolive.mp4"
         data-poster="assets/gall/galli.png"
         data-images="assets/gall/galli.png,assets/gall/galli1.png,assets/gall/galli2.png"
       >
@@ -562,7 +578,7 @@
               preload="metadata"
               poster="assets/gall/galli.png"
             >
-              <source src="assets/gall/galli.mp4" type="video/mp4">
+              <source src="assets/gall/Gallipoliolive.mp4" type="video/mp4">
             </video>
 
             <div class="project-video-gradient"></div>
@@ -572,13 +588,13 @@
             <button
               class="project-play"
               type="button"
-              aria-label="Videoyu oynat"
+              aria-label="Play video"
             >
               <span class="play-icon">▶</span>
             </button>
 
             <button class="project-expand" type="button">
-              Galeriyi aç
+              Open Gallery
               <span aria-hidden="true">↗</span>
             </button>
           </div>
@@ -621,12 +637,12 @@
           <h3>GALLİ POLİ<br>OLİVE</h3>
 
           <p>
-            Marka kimliği, görsel dil ve dijital sunum yapısının bir araya
-            getirildiği modern bir zeytinyağı markası projesi.
+            A modern olive oil brand project that brings together brand identity,
+            visual language, and digital presentation.
           </p>
 
           <button class="project-detail-button" type="button">
-            Projeyi incele
+            View Project
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -637,7 +653,7 @@
         class="project-showcase"
         style="--project-accent: #3487a7"
         data-title="SABİT DEĞİŞKENLER"
-        data-video="assets/sbt/sabit.mp4"
+        data-video="assets/sbt/SabitDegiskenler.mp4"
         data-poster="assets/sbt/sabt.png"
         data-images="assets/sbt/sabt.png,assets/sbt/sbt2.png,assets/sbt/sbt3.png,assets/sbt/sbt4.png,assets/sbt/sbt5.png,assets/sbt/sbt6.png,assets/sbt/sbt7.png,assets/sbt/sbt8.png"
       >
@@ -651,7 +667,7 @@
               preload="metadata"
               poster="assets/sbt/sabt.png"
             >
-              <source src="assets/sbt/sabit.mp4" type="video/mp4">
+              <source src="assets/sbt/SabitDegiskenler.mp4" type="video/mp4">
             </video>
 
             <div class="project-video-gradient"></div>
@@ -661,13 +677,13 @@
             <button
               class="project-play"
               type="button"
-              aria-label="Videoyu oynat"
+              aria-label="Play video"
             >
               <span class="play-icon">▶</span>
             </button>
 
             <button class="project-expand" type="button">
-              Galeriyi aç
+              Open Gallery
               <span aria-hidden="true">↗</span>
             </button>
           </div>
@@ -683,10 +699,6 @@
 
             <button class="project-thumbnail" type="button" data-index="3">
               <img src="assets/sbt/sbt3.png" alt="Sabit Değişkenler görsel 3">
-            </button>
-
-            <button class="project-thumbnail" type="button" data-index="4">
-              <img src="assets/sbt/sbt4.png" alt="Sabit Değişkenler görsel 4">
             </button>
 
             <button class="project-thumbnail" type="button" data-index="5">
@@ -718,12 +730,12 @@
           <h3>SABİT<br>DEĞİŞKENLER</h3>
 
           <p>
-            Güçlü tipografi ve sade bir görsel sistem kullanılarak oluşturulan
-            editoryal ve dijital tasarım çalışması.
+            An editorial and digital design project created 
+            using bold typography and a clean visual system.
           </p>
 
           <button class="project-detail-button" type="button">
-            Projeyi incele
+            View Project
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -734,9 +746,9 @@
         class="project-showcase"
         style="--project-accent: #8aa84b"
         data-title="CEM AKIN"
-        data-video="assets/ca/cem-akin.mp4"
+        data-video="assets/ca/Cem-Akın.mp4"
         data-poster="assets/ca/ca.png"
-        data-images="assets/ca/ca.png"
+        data-images="assets/ca/ca2.png"
       >
         <div class="project-media">
           <div class="project-video-frame">
@@ -748,7 +760,7 @@
               preload="metadata"
               poster="assets/ca/ca.png"
             >
-              <source src="assets/ca/cem-akin.mp4" type="video/mp4">
+              <source src="assets/ca/Cem-Akın.mp4" type="video/mp4">
             </video>
 
             <div class="project-video-gradient"></div>
@@ -758,13 +770,13 @@
             <button
               class="project-play"
               type="button"
-              aria-label="Videoyu oynat"
+              aria-label="Play video"
             >
               <span class="play-icon">▶</span>
             </button>
 
             <button class="project-expand" type="button">
-              Galeriyi aç
+              Open Gallery
               <span aria-hidden="true">↗</span>
             </button>
           </div>
@@ -787,12 +799,12 @@
           <h3>CEM<br>AKIN</h3>
 
           <p>
-            Kişisel marka kimliğini öne çıkaran, yalın ve içerik odaklı
-            portfolyo deneyimi.
+            A minimal and content-focused portfolio experience 
+            that highlights personal brand identity.
           </p>
 
           <button class="project-detail-button" type="button">
-            Projeyi incele
+            View Project
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -827,13 +839,13 @@
             <button
               class="project-play"
               type="button"
-              aria-label="Videoyu oynat"
+              aria-label="Play video"
             >
               <span class="play-icon">▶</span>
             </button>
 
             <button class="project-expand" type="button">
-              Galeriyi aç
+              Open Gallery
               <span aria-hidden="true">↗</span>
             </button>
           </div>
@@ -868,12 +880,12 @@
           <h3>SABİT<br>DEĞİŞKENLER</h3>
 
           <p>
-            Kampanya iletişimi, görsel yönlendirme ve dijital içerik üretimi
-            üzerine hazırlanan yaratıcı çalışma.
+            A creative project focused on campaign communication, 
+            visual direction, and digital content creation.
           </p>
 
           <button class="project-detail-button" type="button">
-            Projeyi incele
+            View Project
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -884,7 +896,7 @@
         class="project-showcase"
         style="--project-accent: #a37454"
         data-title="ARARAT RESERVE COFFE"
-        data-video="assets/cof/ararat.mp4"
+        data-video="assets/cof/caffe.mp4"
         data-poster="assets/cof/cof1.png"
         data-images="assets/cof/cof1.png,assets/cof/cof2.png,assets/cof/cof3.png,assets/cof/cof4.png"
       >
@@ -896,9 +908,9 @@
               loop
               playsinline
               preload="metadata"
-              poster="assets/cof/cof1.png"
+              poster="assets/cof/cof3.png"
             >
-              <source src="assets/cof/ararat.mp4" type="video/mp4">
+              <source src="assets/cof/caffe.mp4" type="video/mp4">
             </video>
 
             <div class="project-video-gradient"></div>
@@ -908,20 +920,20 @@
             <button
               class="project-play"
               type="button"
-              aria-label="Videoyu oynat"
+              aria-label="Play video"
             >
               <span class="play-icon">▶</span>
             </button>
 
             <button class="project-expand" type="button">
-              Galeriyi aç
+              Open Gallery  
               <span aria-hidden="true">↗</span>
             </button>
           </div>
 
           <div class="project-image-strip">
             <button class="project-thumbnail" type="button" data-index="1">
-              <img src="assets/cof/cof1.png" alt="Ararat Coffee görsel 1">
+              <img src="assets/cof/cof3.png" alt="Ararat Coffee görsel 1">
             </button>
 
             <button class="project-thumbnail" type="button" data-index="2">
@@ -929,7 +941,7 @@
             </button>
 
             <button class="project-thumbnail" type="button" data-index="3">
-              <img src="assets/cof/cof3.png" alt="Ararat Coffee görsel 3">
+              <img src="assets/cof/cof1.png" alt="Ararat Coffee görsel 3">
             </button>
 
             <button class="project-thumbnail" type="button" data-index="4">
@@ -949,12 +961,232 @@
           <h3>ARARAT<br>RESERVE COFFE</h3>
 
           <p>
-            Ambalaj, marka kimliği ve dijital sunum çalışmalarının birlikte
-            ele alındığı premium kahve markası projesi.
+          A premium coffee brand project that brings together packaging design,
+          brand identity, and digital presentation.
           </p>
 
           <button class="project-detail-button" type="button">
-            Projeyi incele
+            View Project
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- Proje 6 -->
+      <article
+        class="project-showcase"
+        style="--project-accent: #a37454"
+        data-title="VECTRA STUDIO"
+        data-video="assets/vectra/vectra.mp4"
+        data-poster="assets/vectra/vectra.png"
+        data-images="assets/vectra/vectra.png,assets/vectra/vectra2.png,assets/vectra/vectra3.png,assets/vectra/vectra4.png"
+      >
+        <div class="project-media">
+          <div class="project-video-frame">
+            <video
+              class="project-video"
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="assets/vectra/vectra.png"
+            >
+              <source src="assets/vectra/vectra.mp4" type="video/mp4">
+            </video>
+
+            <div class="project-video-gradient"></div>
+
+            <span class="project-media-label">Video</span>
+
+            <button
+              class="project-play"
+              type="button"
+              aria-label="Play video"
+            >
+              <span class="play-icon">▶</span>
+            </button>
+
+            <button class="project-expand" type="button">
+              Open Gallery
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+
+          <div class="project-image-strip">
+            <button class="project-thumbnail" type="button" data-index="1">
+              <img src="assets/vectra/vectra.png" alt="Vectra Studio görsel 1">
+            </button>
+
+            <button class="project-thumbnail" type="button" data-index="2">
+              <img src="assets/vectra/vectra2.png" alt="Vectra Studio görsel 2">
+            </button>
+
+          </div>
+        </div>
+
+        <div class="project-content">
+          <span class="project-number">06</span>
+
+          <div class="project-tags">
+            <span>Packaging</span>
+            <span>Brand Design</span>
+          </div>
+
+          <h3>VECTRA<br>STUDIO</h3>
+
+          <p>
+            An innovative web experience developed for Vectra Studio, showcasing digital solutions and 
+            software services through modern design and a user-friendly interface
+          </p>
+
+          <button class="project-detail-button" type="button">
+            View Project
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- Proje 7 -->
+      <article
+        class="project-showcase"
+        style="--project-accent: #8aa84b"
+        data-title="AXION"
+        data-video="assets/axion/axion.mp4"
+        data-poster="assets/axion/axion.png"
+        data-images="assets/axion/axion2.png"
+      >
+        <div class="project-media">
+          <div class="project-video-frame">
+            <video
+              class="project-video"
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="assets/axion/axion.png"
+            >
+              <source src="assets/axion/axion.mp4" type="video/mp4">
+            </video>
+
+            <div class="project-video-gradient"></div>
+
+            <span class="project-media-label">Video</span>
+
+            <button
+              class="project-play"
+              type="button"
+              aria-label="Play video"
+            >
+              <span class="play-icon">▶</span>
+            </button>
+
+            <button class="project-expand" type="button">
+              Open Gallery
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+
+          <div class="project-image-strip">
+            <button class="project-thumbnail" type="button" data-index="1">
+              <img src="assets/axion/axion.png" alt="Axion proje görseli">
+            </button>
+
+            <button class="project-thumbnail" type="button" data-index="1">
+              <img src="assets/axion/axion2.png" alt="Axion proje görseli">
+            </button>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <span class="project-number">07</span>
+
+          <div class="project-tags">
+            <span>Portfolio</span>
+            <span>Web Design</span>
+          </div>
+
+          <h3>AXION</h3>
+          <p>
+            A modern and user-friendly web experience that enables real-time tracking of cryptocurrency prices, market data,
+            and price fluctuations.
+          </p>
+
+          <button class="project-detail-button" type="button">
+            View Project
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- Proje 8 -->
+      <article
+        class="project-showcase"
+        style="--project-accent: #8aa84b"
+        data-title="ASTROVAULT NASA"
+        data-video="assets/astrov/astro.mp4"
+        data-poster="assets/astrov/astro.png"
+        data-images="assets/astrov/astro2.png"
+      >
+        <div class="project-media">
+          <div class="project-video-frame">
+            <video
+              class="project-video"
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="assets/astrov/astrov.png"
+            >
+              <source src="assets/astrov/astro.mp4" type="video/mp4">
+            </video>
+
+            <div class="project-video-gradient"></div>
+
+            <span class="project-media-label">Video</span>
+
+            <button
+              class="project-play"
+              type="button"
+              aria-label="Play video"
+            >
+              <span class="play-icon">▶</span>
+            </button>
+
+            <button class="project-expand" type="button">
+              Open Gallery
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+
+          <div class="project-image-strip">
+            <button class="project-thumbnail" type="button" data-index="1">
+              <img src="assets/astrov/astrov.png" alt="Astrov proje görseli">
+            </button>
+                      
+            <button class="project-thumbnail" type="button" data-index="1">
+              <img src="assets/astrov/astrov2.png" alt="Astrov proje görseli">
+            </button>
+          </div>
+
+        </div>
+
+        <div class="project-content">
+          <span class="project-number">08</span>
+
+          <div class="project-tags">
+            <span>Portfolio</span>
+            <span>Web Design</span>
+          </div>
+
+          <h3>ASTROVAULT NASA</h3>
+
+          <p>
+            A modern and interactive web experience that brings space data, astronomical imagery, 
+            and the latest discoveries to users through NASA API integration.
+          </p>
+
+          <button class="project-detail-button" type="button">
+            View Project
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -970,14 +1202,14 @@
 
     <header class="project-modal-header">
       <div>
-        <span class="project-modal-kicker">Proje galerisi</span>
+        <span class="project-modal-kicker">Project Gallery</span>
         <h2 id="projectModalTitle"></h2>
       </div>
 
       <button
         class="project-modal-close"
         type="button"
-        aria-label="Galeriyi kapat"
+        aria-label="Close gallery"
       >
         ×
       </button>
@@ -989,7 +1221,7 @@
       <button
         class="project-modal-navigation project-modal-prev"
         type="button"
-        aria-label="Önceki medya"
+        aria-label="Previous media"
       >
         ←
       </button>
@@ -999,7 +1231,7 @@
       <button
         class="project-modal-navigation project-modal-next"
         type="button"
-        aria-label="Sonraki medya"
+        aria-label="Next media"
       >
         →
       </button>
@@ -1014,14 +1246,14 @@
 
     <header class="modal-header">
       <div>
-        <span class="modal-label">Proje galerisi</span>
+        <span class="modal-label">Project Gallery</span>
         <h2 class="modal-title" id="modalTitle"></h2>
       </div>
 
       <button
         class="modal-close"
         type="button"
-        aria-label="Galeriyi kapat"
+        aria-label="Close gallery"
       >
         ×
       </button>
@@ -1033,7 +1265,7 @@
       <button
         class="modal-nav modal-prev"
         type="button"
-        aria-label="Önceki görsel"
+        aria-label="Previous image"
       >
         ‹
       </button>
@@ -1041,7 +1273,7 @@
       <button
         class="modal-nav modal-next"
         type="button"
-        aria-label="Sonraki görsel"
+        aria-label="Next image"
       >
         ›
       </button>
@@ -1049,12 +1281,11 @@
 
     <div class="modal-footer">
       <span class="modal-counter"></span>
-      <span class="modal-hint">← → tuşlarıyla gezinebilirsiniz</span>
+      <span class="modal-hint">← → You can navigate using the arrow keys.</span>
     </div>
 
   </div>
 </dialog>
-
 
 
   <!-- ================= LIGHT PARALLAX ================= -->
@@ -1103,8 +1334,8 @@
         <span class="profile-description-line" aria-hidden="true"></span>
 
         <p>
-          I create clean, functional and user-focused digital experiences
-          by combining modern web technologies with thoughtful design.
+          I create clean, functional and user-focused digital experiences by combining 
+          modern web technologies with thoughtful design.
         </p>
       </div>
 
@@ -1224,31 +1455,32 @@ document.addEventListener("DOMContentLoaded", () => {
         <span class="contact-kicker">Let’s create together</span>
 
         <h2 class="contact-title" id="contactTitle">
-          HAVE AN IDEA?
-          <span>LET’S TALK.</span>
+          LOOKING FOR
+          <span>A FRONTEND DEVELOPER?</span>
         </h2>
       </div>
 
       <div class="contact-content">
         <p class="contact-description">
-          You can contact me regarding career opportunities, collaborations
-          or projects where we can create meaningful value together.
+          I’m looking for new opportunities to improve my skills and contribute to real-world projects. If you’re looking for a motivated frontend developer who is eager to learn and grow,
+           I’d be happy to connect with your team.
         </p>
 
-        <a
-          class="contact-mail"
-          href="mailto:busederekoy52@gmail.com"
-          aria-label="Send an email to Busenur Dereköy"
-        >
-          <span class="contact-mail-label">Email me</span>
+              <a
+        class="contact-mail"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=busederekoy52@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Send an email to Busenur Dereköy"
+      >
+        <span class="contact-mail-label">Email me</span>
 
-          <span class="contact-mail-address">
-            busederekoy52@gmail.com
-          </span>
+        <span class="contact-mail-address">
+          busederekoy52@gmail.com
+        </span>
 
-          <span class="contact-mail-arrow" aria-hidden="true">↗</span>
-        </a>
-      </div>
+        <span class="contact-mail-arrow" aria-hidden="true">↗</span>
+      </a>
 
     </div>
 
@@ -1259,7 +1491,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <div class="contact-social-links">
           <a
-            href="mailto:busederekoy52@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=busederekoy52@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Send an email"
           >
             Mail

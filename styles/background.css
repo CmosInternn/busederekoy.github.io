@@ -34,13 +34,6 @@ body {
   background: radial-gradient(circle, #1e6cff 0%, transparent 70%);
 }
 
-.light-2 {
-  top: 20%;
-  right: -300px;
-  background: radial-gradient(circle, #2f80ff 0%, transparent 70%);
-  opacity: 0.45;
-}
-
 .light-3 {
   bottom: -300px;
   left: 20%;
